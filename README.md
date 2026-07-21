@@ -1,6 +1,8 @@
-# imagery-ingest-kit
+# stac-satellite-imagery-toolkit
 
-Utilities for ingesting STAC-cataloged satellite imagery into geospatial processing workflows. Provides a small Python library and CLI for querying STAC APIs, filtering optical scenes (e.g. Landsat, Sentinel-2) by bounding box, date range, and cloud cover, and downloading matching assets into a consistent local directory layout.
+A Python library and CLI for querying [STAC](https://stacspec.org/) (SpatioTemporal Asset Catalog) APIs and ingesting optical satellite imagery — Landsat and Sentinel-2 — into geospatial processing workflows. Filter scenes by bounding box, date range, and cloud cover, then download matching assets into a consistent local directory layout.
+
+Keywords: STAC API, satellite imagery, Landsat, Sentinel-2, remote sensing, geospatial data pipeline, Python.
 
 ## Status
 
